@@ -24,7 +24,7 @@ What could be a perfect way to utilize unfortunate lockdown period? Like most of
 This project is divided into three part:
 1. I have taken datasets from internet and did some exploratory data analysis, statistical analysis using pandas and used matplotlib, seaborn for more infomative and attractive visualization of data.
 2. Applied different types of encoders for converting categorical feature to numerical feature. After that applied standardscaler for grouping the data which helps to get best output through machine learning models.
-3. Applying four machine learning models 1)Logistic Regression, 2)Random Forest Classfier.
+3. Applying two machine learning models 1)Logistic Regression, 2)Random Forest Classfier.
     - I got higher accuracy, precision value, recall value, f1-score value in Random Forest Classfier then Logistic Regression. Random Forest is usually robust to             outliers and can handle them automatically Random forest can solve both type of problems that is classification and regression. That's why I have chosen Random           Forest Classfier for prediction.
     - Used confusion matrix for checking there is any error is present or not and the data is giving biased output or not.
     - Used classification report for finding precision, recall and f1-score values because we can not fully trust on accuracy score.
