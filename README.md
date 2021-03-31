@@ -24,13 +24,13 @@ What could be a perfect way to utilize unfortunate lockdown period? Like most of
 This project is divided into three part:
 1. I have taken datasets from internet and did some exploratory data analysis, statistical analysis using pandas and used matplotlib, seaborn for more infomative and attractive visualization of data.
 2. Applied different types of encoders for converting categorical feature to numerical feature. After that applied standardscaler for grouping the data which helps to get best output through machine learning models.
-3. Applying four machine learning models 1)Logistic Regression, 2)K-NeighborsClassifier, 3)Random Forest Classfier, 4)DecisionTreeClassifier.
-    - I got higher accuracy, precision value, recall value, f1-score value in Random Forest Classfier the Decision Tree Classifier and so on. That's why I have chosen           Random Forest Classfier for prediction.
+3. Applying four machine learning models 1)Logistic Regression, 2)Random Forest Classfier.
+    - I got higher accuracy, precision value, recall value, f1-score value in Random Forest Classfier then Logistic Regression. Random Forest is usually robust to             outliers and can handle them automatically Random forest can solve both type of problems that is classification and regression. That's why I have chosen Random           Forest Classfier for prediction.
     - Used confusion matrix for checking there is any error is present or not and the data is giving biased output or not.
     - Used classification report for finding precision, recall and f1-score values because we can not fully trust on accuracy score.
 
 ## Installation
-The Code is written in Python 3.9. If you don't have Python installed you can find it [here](https://www.python.org/downloads/) and ananconda then you can find it [here](https://www.anaconda.com/products/individual). If you are using a lower version of Python you can upgrade using the pip package, ensuring you have the latest version of pip or conda. You can install in libraries in two way 1)in anaconda prompt 2)in jupyter notebook:
+The Code is written in Python 3.9.2 version. If you don't have Python installed you can find it [here](https://www.python.org/downloads/) and ananconda then you can find it [here](https://www.anaconda.com/products/individual). If you are using a lower version of Python you can upgrade using the pip package, ensuring you have the latest version of pip or conda. You can install in libraries in two way 1)in anaconda prompt 2)in jupyter notebook:
 ```bash
 pip install package_name (anaconda prompt)
 
@@ -40,7 +40,7 @@ pip install package_name (anaconda prompt)
 ## Run
 > STEP 1
 #### Linux, macOS, Windows User
-I don't have enough knowledge linux or macOS that's why I can not say more about it.
+I don't have too much knowledge in linux or macOS that's why I can not say more about it.
 Firstly, you have to download editor then download required libraries. After that download data set and the ipynb file from here.
 
 > STEP 2
